@@ -1,0 +1,7 @@
+localhost:80
+
+ext .html   # Clean URLs
+errors {
+    log ../errors.log    # Error log
+    404 error-404.html   # Custom error page
+}
